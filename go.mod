@@ -1,6 +1,6 @@
 module github.com/btajuddin/jfrog-cli-oidc-plugin
 
-go 1.22.4
+go 1.23.4
 
 require (
 	github.com/jfrog/jfrog-cli-core/v2 v2.53.1

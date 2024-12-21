@@ -14,7 +14,7 @@ func getApp() components.App {
 	app := components.App{}
 	app.Name = "oidc-exchange"
 	app.Description = "Easily retrieve an access token from and OIDC token."
-	app.Version = "v1.0.0"
+	app.Version = "v1.0.1"
 	app.Commands = getCommands()
 	return app
 }
