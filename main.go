@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/btajuddin/jfrog-cli-oidc-plugin/commands"
 	"github.com/jfrog/jfrog-cli-core/v2/plugins"
 	"github.com/jfrog/jfrog-cli-core/v2/plugins/components"
-	"github.com/jfrog/jfrog-cli-plugin-template/commands"
 )
 
 func main() {
@@ -12,14 +12,14 @@ func main() {
 
 func getApp() components.App {
 	app := components.App{}
-	app.Name = "hello-frog"
-	app.Description = "Easily greet anyone."
-	app.Version = "v0.1.2"
+	app.Name = "oidc-exchange"
+	app.Description = "Easily retrieve an access token from and OIDC token."
+	app.Version = "v1.0.0"
 	app.Commands = getCommands()
 	return app
 }
 
 func getCommands() []components.Command {
 	return []components.Command{
-		commands.GetHelloCommand()}
+		commands.GetExchangeCommand()}
 }

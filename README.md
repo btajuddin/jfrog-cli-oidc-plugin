@@ -1,27 +1,25 @@
-# hello-frog
+# oidc-exchange
 
 ## About this plugin
-This plugin is a template and a functioning example for a basic JFrog CLI plugin. 
-This README shows the expected structure of your plugin's README.
+This plugin does an OIDC token exchange with the JFrog server. The resulting output is an access token that can be used
+to access JFrog with the identity mapped in the OIDC provider configuration.
 
 ## Installation with JFrog CLI
 Installing the latest version:
 
-`$ jf plugin install hello-frog`
+`$ jf plugin install oidc-exchange`
 
 Installing a specific version:
 
-`$ jf plugin install hello-frog@version`
+`$ jf plugin install oidc-exchange@version`
 
 Uninstalling a plugin
 
-`$ jf plugin uninstall hello-frog`
+`$ jf plugin uninstall oidc-exchange`
 
 ## Usage
 ### Commands
-* hello
-    - Arguments:
-        - addressee - The name of the person you would like to greet.
+* exchange
     - Flags:
         - shout: Makes output uppercase **[Default: false]**
     - Example:
