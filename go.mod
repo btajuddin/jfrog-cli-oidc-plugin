@@ -3,7 +3,7 @@ module github.com/btajuddin/jfrog-cli-oidc-plugin
 go 1.23.4
 
 require (
-	github.com/jfrog/jfrog-cli-core/v2 v2.57.2
+	github.com/jfrog/jfrog-cli-core/v2 v2.57.3
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -31,7 +31,7 @@ require (
 	github.com/jfrog/archiver/v3 v3.6.1 // indirect
 	github.com/jfrog/build-info-go v1.10.7 // indirect
 	github.com/jfrog/gofrog v1.7.6 // indirect
-	github.com/jfrog/jfrog-client-go v1.48.4 // indirect
+	github.com/jfrog/jfrog-client-go v1.48.5 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
